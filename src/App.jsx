@@ -10,13 +10,15 @@ import {
 } from "react-router-dom";
 import Main from "./pages/main";
 import Splash from "./pages/splash";
+import NavBar from "./pages/nav";
+import Footer_section from "./pages/footer";
 
 function App() {
   const [loading, setLoading] = useState(true);
   useEffect(() => {
     const timer = setTimeout(() => {
-      // setLoading(false);
-    }, 3000);
+      setLoading(false);
+    }, 2000);
     return () => clearTimeout(timer);
   }, []);
   const router = createBrowserRouter([
@@ -27,7 +29,15 @@ function App() {
   ]);
   return (
     <div>
-       {loading ? <Splash /> :<RouterProvider router={router} />}
+      {loading ? <Splash /> :
+        <div>
+          {/* nav bar setion */}
+          <NavBar/>
+          <RouterProvider router={router} />
+          {/* footer section */}
+          <Footer_section/>
+        </div>
+      }
     </div>
   );
 }
