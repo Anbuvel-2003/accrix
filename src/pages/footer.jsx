@@ -49,7 +49,7 @@ function Footer_section() {
               <h4 className="!mb-3">
                 {" "}
                 <a
-                  href="/"
+                  href="/ContactUs"
                   className="text-[#000] text-[14px] font-medium uppercase"
                 >
                   Contact us

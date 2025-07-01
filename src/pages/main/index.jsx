@@ -20,6 +20,7 @@ import {
 import Intropage from "./intropage";
 
 function Main() {
+  
   const testimonail = [
     {
       id: 1,
@@ -130,24 +131,24 @@ function Main() {
   return (
     <div>
       <Intropage />
+
       {/* section 1 */}
       <section className="lg:!px-20 md:!px-20 !px-10 !py-10  bg-white">
         <div>
-          <h1 className="lg:text-[45px] md:text-[30px] sm:text-[20px] text-[20px] capitalize text-black font-semibold">
-            Money that Moves
+          <h1 className="lg:text-[45px] md:text-[30px] sm:text-[20px] text-[20px] capitalize text-center text-black font-semibold">
+            Money that Moves Systems that Scale.
           </h1>
-          <h1 className="lg:text-[45px] md:text-[30px] sm:text-[20px] text-[20px] capitalize text-black font-semibold">
-            Systems that Scale.
-          </h1>
-          <div className="flex justify-between items-center ">
-            <p className="md:text-[20px] sm:text-[16px] text-[12px]  text-black capitalize font-sans">
+          <div className=" justify-between items-center ">
+            <p className="md:text-[20px] sm:text-[16px] text-[12px] text-center  text-black capitalize font-sans">
               Track every rupee, automate every follow-up, and stay steps ahead.
-              We strip away the complexity of money management with easy-to-use
-              tools and clear insights.
+              We strip away the complexity of money management
+            </p>
+            <p className="md:text-[20px] sm:text-[16px] text-[12px] text-center  text-black capitalize font-sans">
+              with easy-to-use tools and clear insights.
             </p>
             {/* <button className="!px-10 !py-5 rounded-[40px] cursor-pointer text-white bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD]">Get started free</button> */}
           </div>
-          <div className="!mt-5">
+          <div className="!mt-15">
             <div className="w-full lg:flex grid ">
               <div className="w-full h-full grid ">
                 <div className="lg:flex grid grid-cols-2 gap-5 h-1/2  ">
@@ -191,7 +192,7 @@ function Main() {
                 <div className="w-full h-full ">
                   <img
                     src={money3}
-                    className="w-[40vw] h-[90vh] object-contain rounded-[20px]"
+                    className="lg:w-[50vw] lg:h-[90vh] object-contain rounded-[20px]"
                     alt=""
                   />
                 </div>
@@ -203,6 +204,7 @@ function Main() {
           </div>
         </div>
       </section>
+
       {/* section 2 */}
       <section className="lg:!px-20 md:!px-20 !px-10 !py-10 bg-white">
         <div>

@@ -7,7 +7,7 @@ function Intropage() {
       <div className="lg:w-[95vw]  md:w-[90vw] lg:h-[90vh] md:h-[70vh] !h-fill  relative">
         <div>
           <h3 className="text-[18px]  py-3 px-5 rounded-[30px] text-center font-sans bg-clip-text bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD] text-transparent">
-            fortune
+            Fortune
           </h3>
           <h3 className="lg:text-[50px] md:text-[50px] sm:text-[40px] text-[20px] text-center !font-bold capitalize">
             Smarter lending ,
