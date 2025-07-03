@@ -1,7 +1,7 @@
 @import "tailwindcss";
 @plugin "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Math&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Math&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -13,14 +13,17 @@
   src: url("./assets/fonts/Inter_18pt-ExtraBold.ttf");
 } */
 
-
 :root {
-  --font-inter:  Libertinus Math, system-ui;
-  --color-primary: linear-gradient(90deg, rgba(231, 112, 192, 1) 0%, rgba(231, 112, 192, 1) 48%, rgba(198, 112, 222, 1) 100%);
+  --font-inter: Libertinus Math, system-ui;
+  --color-primary: linear-gradient(
+    90deg,
+    rgba(231, 112, 192, 1) 0%,
+    rgba(231, 112, 192, 1) 48%,
+    rgba(198, 112, 222, 1) 100%
+  );
   --color-borderline: #315361;
   --color-danger: #f06473;
 }
-
 
 body {
   margin: 0;

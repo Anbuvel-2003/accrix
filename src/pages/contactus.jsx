@@ -13,8 +13,8 @@ function ContactUs() {
     console.log(e?.preventDefault());
   };
   return (
-    <div className="z-70">
-      <div className="w-[100vw] !mb-10">
+    <div className="">
+      <div className="w-full !mb-10">
         <img src={contactus1} alt="" className="object-contain" />
       </div>
       <div>
@@ -38,7 +38,6 @@ function ContactUs() {
             >
               <div className="grid grid-cols-1 md:grid-cols-1 gap-6 ">
                 <div>
-                 
                   <input
                     type="text"
                     id="name"
@@ -67,7 +66,6 @@ function ContactUs() {
                 </div> */}
               </div>
               <div>
-            
                 <input
                   type="email"
                   id="email"
@@ -78,7 +76,6 @@ function ContactUs() {
                 />
               </div>
               <div>
-               
                 <input
                   type="text"
                   id="subject"
@@ -88,7 +85,6 @@ function ContactUs() {
                 />
               </div>
               <div>
-                
                 <textarea
                   id="message"
                   name="message"
@@ -110,7 +106,11 @@ function ContactUs() {
             </form>
           </div>
           <div className="lg:w-1/2 w-full lg:p-0 md:!px-20 md:!py-10 !px-10 !py-10 ">
-            <img alt="" src={contactus2} className="object-contain w-full h-full" />
+            <img
+              alt=""
+              src={contactus2}
+              className="object-contain w-full h-full"
+            />
           </div>
         </div>
       </div>

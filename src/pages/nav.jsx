@@ -221,7 +221,7 @@ const NavBar = () => {
               <a href={"/"}>Home</a>
             </h2>
             <h2 className="text-[#263030] hover:text-[#9F70FD] cursor-pointer capitalize font-sans text-[16px]">
-              <a href={"/"}>About us</a>
+              <a href={"/AboutUs"}>About us</a>
             </h2>
             <h2 className="text-[#263030] hover:text-[#9F70FD] cursor-pointer capitalize font-sans text-[16px]">
               <a href={"/"}>services</a>
@@ -231,7 +231,7 @@ const NavBar = () => {
             </h2>
           </div>
         </div>
-        <div className="w-[40vw] place-content-end place-items-end flex !mr-5">
+        <div className="w-[40vw] place-content-end place-items-end flex !mr-30">
           <div className="flex  cursor-pointer justify-center h-[80%] !px-5 !py-3 items-center bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD] w-[150px] rounded-[40px]">
             <h1 className="text-[#fff] capitalize   font-sans text-[16px]">
               Get Started

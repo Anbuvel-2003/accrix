@@ -81,6 +81,7 @@ function Layout() {
 }
 
 import { Outlet } from "react-router-dom";
+import Aboutus from "./pages/aboutus";
 
 const router = createBrowserRouter([
   {
@@ -94,6 +95,10 @@ const router = createBrowserRouter([
       {
         path: "/ContactUs",
         element: <ContactUs />,
+      },
+      {
+        path: "/AboutUs",
+        element: <Aboutus />,
       },
     ],
   },

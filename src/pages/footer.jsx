@@ -1,20 +1,52 @@
 import React from "react";
-import { FaFacebookSquare } from "react-icons/fa";
-import {
-  FaLinkedin,
-  FaSquareInstagram,
-  FaSquareXTwitter,
-  FaSquareYoutube,
-} from "react-icons/fa6";
+import { FaFacebookF, FaInstagram, FaXTwitter } from "react-icons/fa6";
+import { TbBrandLinkedin } from "react-icons/tb";
+import { RiYoutubeLine } from "react-icons/ri";
 
 function Footer_section() {
   return (
-    <div className="lg:!px-20 md:!px-20 !px-10 !py-10 lg:bg-white">
+    <div className="lg:!px-30 md:!px-20 !px-10 !py-10 bg-[#0D0D0D] lg:!mt-30 md:!mt-20 !mt-10">
       <div className="lg:flex grid">
+        <div className="place-content-end lg:!mt-0 !mt-10 ">
+          <h4 className=" text-white text-[22px] font-medium capitalize">
+            Accrix
+          </h4>
+          <h4 className=" text-white text-[14px] font-light ">
+            Empowering the future of wealth through intelligent, high-return
+            lending with data-driven credit assessment and active tracking.
+          </h4>
+          <div className="flex !mt-3 !gap-5 lg:!mb-0 md:!lg-15 !mb-10">
+            <div>
+              <a href="/" target="_blank">
+                <FaFacebookF size={30} color="#fff" />
+              </a>
+            </div>
+            <div>
+              <a href="" target="_blank">
+                <FaInstagram size={30} color="#fff" />
+              </a>
+            </div>
+            <div>
+              <a href="" target="_blank">
+                <TbBrandLinkedin size={30} color="#fff" />
+              </a>
+            </div>
+            <div>
+              <a href="/">
+                <FaXTwitter size={30} color="#fff" />
+              </a>
+            </div>
+            <div>
+              <a href="/">
+                <RiYoutubeLine size={30} color="#fff" />
+              </a>
+            </div>
+          </div>
+        </div>
         <div className=" lg:flex md:flex grid grid-cols-1 sm:grid-cols-2 !gap-10  lg:flex-1/3 md:flex-1/3 sm:flex-1/2 flex-1 w-full lg:justify-evenly justify-around">
           <div className="">
             <div className="!mb-6">
-              <h4 className="text-black text-[22px] font-medium capitalize ">
+              <h4 className="text-white text-[22px] font-medium capitalize ">
                 Company
               </h4>
             </div>
@@ -23,7 +55,7 @@ function Footer_section() {
                 {" "}
                 <a
                   href="/"
-                  className="text-[#000] text-[14px] font-medium uppercase "
+                  className="text-white text-[14px] font-light uppercase "
                 >
                   Home
                 </a>
@@ -32,7 +64,7 @@ function Footer_section() {
                 {" "}
                 <a
                   href="/"
-                  className="text-[#000] text-[14px] font-medium uppercase"
+                  className="text-white text-[14px] font-light uppercase"
                 >
                   Services
                 </a>
@@ -40,8 +72,8 @@ function Footer_section() {
               <h4 className="!mb-3">
                 {" "}
                 <a
-                  href="/"
-                  className="text-[#000] text-[14px] font-medium uppercase"
+                  href="/AboutUs"
+                  className="text-white text-[14px] font-light uppercase"
                 >
                   About us
                 </a>
@@ -50,7 +82,7 @@ function Footer_section() {
                 {" "}
                 <a
                   href="/ContactUs"
-                  className="text-[#000] text-[14px] font-medium uppercase"
+                  className="text-white text-[14px] font-light uppercase"
                 >
                   Contact us
                 </a>
@@ -59,7 +91,7 @@ function Footer_section() {
           </div>
           <div>
             <div className="!mb-6">
-              <h4 className="text-black text-[22px] font-medium capitalize ">
+              <h4 className="text-white text-[22px] font-medium capitalize ">
                 Support
               </h4>
             </div>
@@ -68,7 +100,7 @@ function Footer_section() {
                 {" "}
                 <a
                   href="/"
-                  className="text-[#000] text-[14px] font-medium capitalize"
+                  className="text-white text-[14px] font-light capitalize"
                 >
                   Getting started
                 </a>
@@ -77,7 +109,7 @@ function Footer_section() {
                 {" "}
                 <a
                   href="/"
-                  className="text-[#000] text-[14px] font-medium capitalize"
+                  className="text-white text-[14px] font-light capitalize"
                 >
                   Help center
                 </a>
@@ -86,7 +118,7 @@ function Footer_section() {
                 {" "}
                 <a
                   href="/"
-                  className="text-[#000] text-[14px] font-medium capitalize"
+                  className="text-white text-[14px] font-light capitalize"
                 >
                   Report a bug
                 </a>
@@ -95,7 +127,7 @@ function Footer_section() {
                 {" "}
                 <a
                   href="/"
-                  className="text-[#000] text-[14px] font-medium capitalize"
+                  className="text-white text-[14px] font-light capitalize"
                 >
                   Chat support
                 </a>
@@ -104,62 +136,29 @@ function Footer_section() {
           </div>
           <div>
             <div className="!mb-6">
-              <h4 className="text-black text-[22px] font-medium capitalize ">
+              <h4 className="text-white text-[22px] font-medium capitalize ">
                 Contacts us
               </h4>
             </div>
             <div>
               <h4 className="!mb-3">
                 {" "}
-                <a href="/" className="text-[#000] text-[14px] font-medium ">
+                <a href="/" className="text-white text-[14px] font-light ">
                   contact@company.com
                 </a>
               </h4>
               <h4 className="!mb-3">
                 {" "}
-                <a href="/" className="text-[#000] text-[14px] font-medium ">
+                <a href="/" className="text-white text-[14px] font-light ">
                   (414) 687 - 5892
                 </a>
               </h4>
               <h4 className="!mb-3">
                 {" "}
-                <a href="/" className="text-[#000] text-[14px] font-medium ">
+                <a href="/" className="text-white text-[14px] font-light ">
                   794 Mcallister St San Francisco, 94102
                 </a>
               </h4>
-            </div>
-          </div>
-        </div>
-        <div className="place-content-end lg:!mt-0 !mt-10">
-          <h4>Accrix</h4>
-          <h4>
-            Empowering the future of wealth through intelligent, high-return lending with data-driven credit assessment and active tracking.
-          </h4>
-          <div className="flex !mt-3 !gap-5">
-            <div>
-              <a href="/" target="_blank">
-                <FaFacebookSquare size={30} color="#AD46FF" />
-              </a>
-            </div>
-            <div>
-              <a href="" target="_blank">
-                <FaSquareInstagram size={30} color="#AD46FF" />
-              </a>
-            </div>
-            <div>
-              <a href="" target="_blank">
-                <FaLinkedin size={30} color="#AD46FF" />
-              </a>
-            </div>
-            <div>
-              <a href="/">
-                <FaSquareXTwitter size={30} color="#AD46FF" />
-              </a>
-            </div>
-            <div>
-              <a href="/">
-                <FaSquareYoutube size={30} color="#AD46FF" />
-              </a>
             </div>
           </div>
         </div>

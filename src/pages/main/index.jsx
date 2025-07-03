@@ -10,6 +10,10 @@ import Stay3 from "../../assets/Stay3.png";
 import money1 from "../../assets/money1.png";
 import money2 from "../../assets/money2.png";
 import money3 from "../../assets/money3.png";
+import services1 from "../../assets/services1.png";
+import services2 from "../../assets/services2.png";
+import services3 from "../../assets/services3.png";
+import services4 from "../../assets/services4.png";
 import { FaCircleArrowUp } from "react-icons/fa6";
 import { FaCircleArrowDown } from "react-icons/fa6";
 import { Rate } from "antd";
@@ -20,7 +24,6 @@ import {
 import Intropage from "./intropage";
 
 function Main() {
-  
   const testimonail = [
     {
       id: 1,
@@ -133,7 +136,7 @@ function Main() {
       <Intropage />
 
       {/* section 1 */}
-      <section className="lg:!px-20 md:!px-20 !px-10 !py-10  bg-white">
+      <section className="lg:!px-30 md:!px-20 !px-10 !py-10 lg:!mt-30 bg-white">
         <div>
           <h1 className="lg:text-[45px] md:text-[30px] sm:text-[20px] text-[20px] capitalize text-center text-black font-semibold">
             Money that Moves Systems that Scale.
@@ -204,9 +207,58 @@ function Main() {
           </div>
         </div>
       </section>
-
       {/* section 2 */}
-      <section className="lg:!px-20 md:!px-20 !px-10 !py-10 bg-white">
+      <section className="bg-[#0D0D0D] !py-10 lg:!pt-20 md:!px-30 !px-10 !my-30">
+        <div className="!pb-10">
+          <h3 className="text-white lg:text-[50px] md:text-[50px] sm:text-[25px] text-center text-[20px] capitalize font-bold ">
+            Services
+          </h3>
+        </div>
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 !gap-5 !pb-20">
+          <div className="bg-[#F9F6FF] place-items-center rounded-[20px] lg:!px-10 lg:!py-15 md:!px-10 md:!py-15 !px-5 !py-10">
+            <img src={services1} alt="" className="!mb-5" />
+            <h2 className="text-black text-[16px] font-semibold !mb-5 text-center  ">
+              Data Analysis for Support
+            </h2>
+            <h2 className="text-[14px] font-normal text-black text-center text-sm/8 ">
+              Advanced analytics track borrower behavior and repayments,
+              enabling smarter decisions and proactive lending support
+            </h2>
+          </div>
+          <div className="bg-[#F9F6FF] place-items-center rounded-[20px] lg:!px-10 lg:!py-15 md:!px-10 md:!py-15 !px-5 !py-10">
+            <img src={services2} alt="" className="!mb-5" />
+            <h2 className="text-black text-[16px] font-semibold !mb-5 text-center  ">
+              Transaction Security
+            </h2>
+            <h2 className="text-[14px] font-normal text-black text-center text-sm/8 ">
+              Enterprise-grade encryption and layered authentication ensure your
+              data and transactions remain secure and fully compliant
+            </h2>
+          </div>
+          <div className="bg-[#F9F6FF] place-items-center rounded-[20px] lg:!px-10 lg:!py-15 md:!px-10 md:!py-15 !px-5 !py-10">
+            <img src={services3} alt="" className="!mb-5" />
+            <h2 className="text-black text-[16px] font-semibold !mb-5  text-center ">
+              Payment Reminders and Follow-Ups
+            </h2>
+            <h2 className="text-[14px] font-normal text-black text-center text-sm/8 ">
+              Automated alerts and active follow-ups ensure timely repayments,
+              reducing defaults and maintaining a smooth cash flow
+            </h2>
+          </div>
+          <div className="bg-[#F9F6FF] place-items-center rounded-[20px] lg:!px-10 lg:!py-15 md:!px-10 md:!py-15 !px-5 !py-10">
+            <img src={services4} alt="" className="!mb-5" />
+            <h2 className="text-black text-[16px] font-semibold !mb-5 text-center  ">
+              Payment Handling & Support
+            </h2>
+            <h2 className="text-[14px] font-normal text-black text-center text-sm/8 ">
+              Timely follow-ups and responsive support help manage late payments
+              while preserving borrower trust and lender confidence
+            </h2>
+          </div>
+        </div>
+      </section>
+      {/* section 3 */}
+      <section className="lg:!px-30 md:!px-20 !px-10 !py-10 lg:!mt-30 bg-white">
         <div>
           <h3 className="lg:text-[45px] md:text-[30px] sm:text-[20px] text-[20px] capitalize text-black font-semibold text-center">
             Stay in Control of Your Finances
@@ -232,12 +284,12 @@ function Main() {
               />
             </div>
           </div>
-          <div className="w-full h-fill lg:flex  grid !gap-10 bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD] rounded-[20px] ">
+          <div className="w-full h-fill lg:flex  grid !gap-10 bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD] rounded-[20px] lg:!p-15 ">
             <div className="w-full place-content-center lg:!mt-0 md:!mt-0 !mt-10 !p-5">
-              <h2 className="lg:text-[45px] md:text-[30px] sm:text-[20px] text-[20px] capitalize text-white font-semibold text-center">
+              <h2 className="lg:text-[45px] md:text-[30px] sm:text-[20px] text-[20px] capitalize text-white font-semibold text-left">
                 Smart Analytics & Reporting
               </h2>
-              <h2 className="md:text-[20px] sm:text-[18px] text-[16px]  text-white font-sans text-center">
+              <h2 className="md:text-[20px] sm:text-[18px] text-[16px]  text-white font-sans text-left">
                 Smart analytics and reporting in finance utilize advanced data
                 analysis to transform financial data into actionable insights.
                 This enhances decision-making, optimizes resource allocation,
@@ -254,9 +306,8 @@ function Main() {
           </div>
         </div>
       </section>
-
-      {/* section 3 */}
-      <section className="bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD] !my-10 md:!mx-20 !mx-10 rounded-[20px]">
+      {/* section 4 */}
+      <section className="bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD] !my-10 lg:!mt-30 md:!mx-30 !mx-10 rounded-[20px]">
         <div className="md:!p-15 !p-5">
           <div className="!px-10 sm:!px-5 !py-3 rounded-[40px] bg-white w-[180px]">
             <h2 className=" text-center font-medium  text-[16px] uppercase bg-clip-text bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD]  text-transparent">
@@ -333,9 +384,8 @@ function Main() {
           </div>
         </div>
       </section>
-
-      {/* section 4 */}
-      <section className="lg:!px-20 md:!px-20 !px-10 !py-10bg-white">
+      {/* section 5 */}
+      <section className="lg:!mt-30 lg:!px-30 md:!px-20 !px-10 !py-10bg-white">
         <div className="w-full lg:flex grid !gap-5">
           <div className="lg:w-1/2 w-full place-content-center">
             <div>
@@ -388,8 +438,7 @@ function Main() {
           </div>
         </div>
       </section>
-
-      {/* section 5 */}
+      {/* section 6 */}
       <section></section>
     </div>
   );
