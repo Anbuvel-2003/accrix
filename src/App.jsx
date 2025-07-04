@@ -82,6 +82,7 @@ function Layout() {
 
 import { Outlet } from "react-router-dom";
 import Aboutus from "./pages/aboutus";
+import Register from "./pages/register";
 
 const router = createBrowserRouter([
   {
@@ -99,6 +100,10 @@ const router = createBrowserRouter([
       {
         path: "/AboutUs",
         element: <Aboutus />,
+      },
+      {
+        path: "/Register",
+        element: <Register />,
       },
     ],
   },

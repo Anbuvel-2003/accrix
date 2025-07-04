@@ -134,7 +134,6 @@ function Main() {
   return (
     <div>
       <Intropage />
-
       {/* section 1 */}
       <section className="lg:!px-30 md:!px-20 !px-10 !py-10 lg:!mt-30 bg-white">
         <div>
@@ -210,7 +209,7 @@ function Main() {
       {/* section 2 */}
       <section className="bg-[#0D0D0D] !py-10 lg:!pt-20 md:!px-30 !px-10 !my-30">
         <div className="!pb-10">
-          <h3 className="text-white lg:text-[50px] md:text-[50px] sm:text-[25px] text-center text-[20px] capitalize font-bold ">
+          <h3 className="text-white lg:text-[50px] md:text-[50px] sm:text-[25px] text-center text-[20px] capitalize font-bold animate-pulse">
             Services
           </h3>
         </div>

@@ -4,6 +4,7 @@ import { LuBrainCircuit, LuCloudCog, LuMonitorCog } from "react-icons/lu";
 import { FaPencilRuler } from "react-icons/fa";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { TbBrandSpeedtest } from "react-icons/tb";
+import logo from "../assets/accrixlogo.png";
 
 // Dropdown component for better organization
 const DropdownMenu = ({ items, isOpen, isHorizontal = false }) => {
@@ -215,6 +216,9 @@ const NavBar = () => {
       }`}
     >
       <div className=" hidden  px-4 lg:flex  justify-between">
+        <div className="place-self-center !pl-10 !mt-5">
+          <img src={logo} alt="" className="" />
+        </div>
         <div className="w-full place-content-end flex">
           <div className="w-1/2 bg-[#f0e9f8] flex justify-evenly !mt-5 !px-5 !py-3 rounded-[15px]">
             <h2 className="text-[#263030] hover:text-[#9F70FD] cursor-pointer capitalize font-sans text-[16px]">
@@ -233,9 +237,11 @@ const NavBar = () => {
         </div>
         <div className="w-[40vw] place-content-end place-items-end flex !mr-30">
           <div className="flex  cursor-pointer justify-center h-[80%] !px-5 !py-3 items-center bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD] w-[150px] rounded-[40px]">
-            <h1 className="text-[#fff] capitalize   font-sans text-[16px]">
-              Get Started
-            </h1>
+            <a href="/Register">
+              <h1 className="text-[#fff] capitalize   font-sans text-[16px]">
+                Get Started
+              </h1>
+            </a>
           </div>
         </div>
       </div>
