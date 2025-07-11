@@ -216,8 +216,10 @@ const NavBar = () => {
       }`}
     >
       <div className=" hidden  px-4 lg:flex  justify-between">
-        <div className="place-self-center !pl-10 !mt-5">
-          <img src={logo} alt="" className="" />
+        <div className="place-self-center !pl-10 !mt-5 cursor-pointer">
+          <a href="/">
+            <img src={logo} alt="" className="" />
+          </a>
         </div>
         <div className="w-full place-content-end flex">
           <div className="w-1/2 bg-[#f0e9f8] flex justify-evenly !mt-5 !px-5 !py-3 rounded-[15px]">
@@ -228,7 +230,7 @@ const NavBar = () => {
               <a href={"/AboutUs"}>About us</a>
             </h2>
             <h2 className="text-[#263030] hover:text-[#9F70FD] cursor-pointer capitalize font-sans text-[16px]">
-              <a href={"/"}>services</a>
+              <a href={"/Pricing"}>pricing</a>
             </h2>
             <h2 className="text-[#263030] hover:text-[#9F70FD] cursor-pointer capitalize font-sans text-[16px]">
               <a href={"/ContactUs"}>contact us</a>

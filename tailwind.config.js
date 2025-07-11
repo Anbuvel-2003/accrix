@@ -12,7 +12,7 @@ export default {
       },
 
       fontFamily: {
-        sans: ['"Poppins"', "sans-serif"],
+        sans: ['"Orbitron"', "sans-serif"],
       },
       screens: {
         xs: "480px",

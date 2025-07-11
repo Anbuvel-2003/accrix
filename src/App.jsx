@@ -51,16 +51,14 @@
 
 // App.jsx
 import { useEffect, useState } from "react";
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Main from "./pages/main";
 import Splash from "./pages/splash";
 import NavBar from "./pages/nav";
 import Footer_section from "./pages/footer";
 import ContactUs from "./pages/contactus";
-
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 function Layout() {
   // const [loading, setLoading] = useState(true);
 
@@ -73,6 +71,7 @@ function Layout() {
 
   return (
     <>
+      <ToastContainer position="top-right" autoClose={3000} />
       <NavBar />
       <Outlet />
       <Footer_section />
@@ -84,6 +83,8 @@ import { Outlet } from "react-router-dom";
 import Aboutus from "./pages/aboutus";
 import Register from "./pages/register";
 import Thankyou from "./pages/thankyou";
+import Pricing from "./pages/pricing";
+import Lanching from "./pages/lanching";
 
 const router = createBrowserRouter([
   {
@@ -103,6 +104,14 @@ const router = createBrowserRouter([
         element: <Aboutus />,
       },
       {
+        path: "/Pricing",
+        element: <Pricing />,
+      },
+      {
+        path: "/lanching",
+        element: <Lanching />,
+      },
+      {
         path: "/Register",
         element: <Register />,
       },
@@ -115,7 +124,10 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <RouterProvider router={router} />;
+  return <Lanching />;
 }
+// function App() {
+//   return <RouterProvider router={router} />;
+// }
 
 export default App;

@@ -63,10 +63,10 @@ function Footer_section() {
               <h4 className="!mb-3">
                 {" "}
                 <a
-                  href="/"
+                  href="/Pricing"
                   className="text-white text-[14px] font-light uppercase"
                 >
-                  Services
+                  pricing
                 </a>
               </h4>
               <h4 className="!mb-3">
@@ -144,19 +144,19 @@ function Footer_section() {
               <h4 className="!mb-3">
                 {" "}
                 <a href="/" className="text-white text-[14px] font-light ">
-                  contact@company.com
+                  info@accrix.com
                 </a>
               </h4>
               <h4 className="!mb-3">
                 {" "}
                 <a href="/" className="text-white text-[14px] font-light ">
-                  (414) 687 - 5892
+                  94881 60083
                 </a>
               </h4>
               <h4 className="!mb-3">
                 {" "}
                 <a href="/" className="text-white text-[14px] font-light ">
-                  794 Mcallister St San Francisco, 94102
+                  H-22, Peelamedu, HUDCO Colony, Coimbatore, Tamil Nadu-641004
                 </a>
               </h4>
             </div>

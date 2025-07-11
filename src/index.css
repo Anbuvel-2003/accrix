@@ -2,6 +2,7 @@
 @plugin "flowbite-react/plugin/tailwindcss";
 @source "../.flowbite-react/class-list.json";
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Libertinus+Math&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -28,6 +29,22 @@
 body {
   margin: 0;
   min-height: 100vh;
+}
+@font-face {
+  font-family: 'Orbitron';
+  src: url('./assets/fonts/digital-7.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Orbitron';
+  src: url('./assets/fonts/digital-7\ \(italic\).ttf') format('truetype');
+  font-weight: 700;
+}
+@font-face {
+  font-family: 'Syne';
+  src: url('./assets/fonts/Syne-SemiBold.ttf') format('truetype');
+  font-weight: 700;
 }
 @keyframes floatUpDown {
   0%, 100% {

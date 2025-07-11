@@ -10,3 +10,11 @@
 .float {
   animation: floatUpDown 10s ease-in-out infinite;
 }
+.countdown-digit {
+  font-family: 'Orbitron', sans-serif;
+  letter-spacing: 15px;
+}
+.countdown-label {
+  font-family: 'Syne',sans-serif;
+   letter-spacing: 2px;
+}
