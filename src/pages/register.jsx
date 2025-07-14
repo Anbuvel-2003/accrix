@@ -334,7 +334,8 @@ export default function Register() {
                     Location
                   </h2>
                   <h2 className="text-[14px] font-normal text-[#565656]">
-                     H-22, Peelamedu, HUDCO Colony,<br/> Coimbatore, Tamil Nadu-641004
+                    5/143, 1st Floor,<br/> Krishnagiri to Salem Highways, <br />
+                    Near Nsk Landmark,Krishnagiri-635001.
                   </h2>
                 </div>
               </div>
@@ -347,7 +348,7 @@ export default function Register() {
                     Phone Number
                   </h2>
                   <h2 className="text-[14px] font-normal text-[#565656]">
-                    94881 60083
+                    9361515772
                   </h2>
                 </div>
               </div>
@@ -358,7 +359,7 @@ export default function Register() {
                 <div className="!ml-5">
                   <h2 className="text-black text-[18px] font-medium">E-mail</h2>
                   <h2 className="text-[14px] font-normal text-[#565656]">
-                    info@accrix.com
+                    accrixfinz@gmail.com
                   </h2>
                 </div>
               </div>

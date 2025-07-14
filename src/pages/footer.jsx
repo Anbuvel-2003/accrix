@@ -144,19 +144,24 @@ function Footer_section() {
               <h4 className="!mb-3">
                 {" "}
                 <a href="/" className="text-white text-[14px] font-light ">
-                  info@accrix.com
+                  accrixfinz@gmail.com
                 </a>
               </h4>
               <h4 className="!mb-3">
                 {" "}
                 <a href="/" className="text-white text-[14px] font-light ">
-                  94881 60083
+                  9361515772
                 </a>
               </h4>
               <h4 className="!mb-3">
                 {" "}
                 <a href="/" className="text-white text-[14px] font-light ">
-                  H-22, Peelamedu, HUDCO Colony, Coimbatore, Tamil Nadu-641004
+                  5/143, 1st Floor,
+                  <br /> Krishnagiri to Salem Highways,
+                  <br />
+                  Near Nsk Landmark,
+                  <br />
+                  Krishnagiri-635001.
                 </a>
               </h4>
             </div>

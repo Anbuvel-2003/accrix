@@ -97,7 +97,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/ContactUs",
-        element: <ContactUs />,
+        element: <ContactUs />, 
       },
       {
         path: "/AboutUs",
@@ -124,10 +124,7 @@ const router = createBrowserRouter([
 ]);
 
 function App() {
-  return <Lanching />;
+  return <RouterProvider router={router} />;
 }
-// function App() {
-//   return <RouterProvider router={router} />;
-// }
 
 export default App;
