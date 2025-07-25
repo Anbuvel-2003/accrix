@@ -14,7 +14,7 @@ function Footer_section() {
           </h4> */}
            <img src={logo} alt="" className=" !mb-3" />
           <h4 className=" text-white text-[14px] font-light ">
-            Empowering the future of wealth through intelligent, high-return
+            Empowering the future of finance through intelligent, high-return
             lending with data-driven credit assessment and active tracking.
           </h4>
           <div className="flex !mt-3 !gap-5 lg:!mb-0 md:!lg-15 !mb-10">

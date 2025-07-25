@@ -214,8 +214,8 @@ function Main() {
               Data Analysis for Support
             </h2>
             <h2 className="text-[14px] font-normal text-black text-center text-sm/8 ">
-              Advanced analytics track borrower behavior and repayments,
-              enabling smarter decisions and proactive lending support
+              Advanced analytics tracks borrower behavior and repayments,
+              enabling smarter decisions and proactive lending support.
             </h2>
           </div>
           <div className="bg-[#F9F6FF] place-items-center rounded-[20px] lg:!px-10 lg:!py-15 md:!px-10 md:!py-15 !px-5 !py-10">
@@ -225,7 +225,7 @@ function Main() {
             </h2>
             <h2 className="text-[14px] font-normal text-black text-center text-sm/8 ">
               Enterprise-grade encryption and layered authentication ensure your
-              data and transactions remain secure and fully compliant
+              data and transactions remain secure.
             </h2>
           </div>
           <div className="bg-[#F9F6FF] place-items-center rounded-[20px] lg:!px-10 lg:!py-15 md:!px-10 md:!py-15 !px-5 !py-10">
@@ -235,7 +235,7 @@ function Main() {
             </h2>
             <h2 className="text-[14px] font-normal text-black text-center text-sm/8 ">
               Automated alerts and active follow-ups ensure timely repayments,
-              reducing defaults and maintaining a smooth cash flow
+              reducing defaults and maintaining a smooth cash flow.
             </h2>
           </div>
           <div className="bg-[#F9F6FF] place-items-center rounded-[20px] lg:!px-10 lg:!py-15 md:!px-10 md:!py-15 !px-5 !py-10">
@@ -244,8 +244,8 @@ function Main() {
               Payment Handling & Support
             </h2>
             <h2 className="text-[14px] font-normal text-black text-center text-sm/8 ">
-              Timely follow-ups and responsive support help manage late payments
-              while preserving borrower trust and lender confidence
+              Timely follow-ups and responsive support help to manage late payments
+              while preserving borrower trust and lender confidence.
             </h2>
           </div>
         </div>
@@ -257,8 +257,8 @@ function Main() {
             Stay in Control of Your Finances
           </h3>
           <h2 className="md:text-[20px] sm:text-[18px] text-[16px]  text-black font-sans text-center">
-            Simplify your financial workflow with powerful tools designed tools
-            designed to save you time and keep <br /> your business running
+            Simplify your financial workflow with powerful tools
+            designed to save your time and keep <br /> your business running
             smoothly
           </h2>
           <div className="w-full flex !gap-10 lg:!mt-20 !mt-5 sm:!mt-10">
@@ -382,9 +382,9 @@ function Main() {
         <div className="w-full lg:flex grid !gap-5">
           <div className="lg:w-1/2 w-full place-content-center">
             <div>
-              <h3>Frequantly Ask Questions</h3>
+              <h3>Frequently Ask Questions</h3>
               <h3 className="!mt-3 text-black text-[30px] font-semibold">
-                What is Accrix, and who is it designed for?
+                What is Accrix, and who it is designed for?
               </h3>
               <p className="!mt-3 text-black text-[20px] font-sans">
                 Accrix is a subscription-based SaaS platform built for
