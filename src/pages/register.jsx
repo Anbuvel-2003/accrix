@@ -76,7 +76,7 @@ export default function Register() {
   return (
     <div>
       <div className="w-full mb-10">
-        <img src={register} alt="Register Banner" className="object-contain" />
+        <img src={register} alt="Register Banner" className="object-contain w-full" />
       </div>
       <div className="!p-10">
         <h3 className="text-[#9F70FD] text-[40px] text-center font-medium">

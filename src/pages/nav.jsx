@@ -229,9 +229,9 @@ const NavBar = () => {
             <h2 className="text-[#263030] hover:text-[#9F70FD] cursor-pointer capitalize font-sans text-[16px]">
               <a href={"/AboutUs"}>About us</a>
             </h2>
-            <h2 className="text-[#263030] hover:text-[#9F70FD] cursor-pointer capitalize font-sans text-[16px]">
+            {/* <h2 className="text-[#263030] hover:text-[#9F70FD] cursor-pointer capitalize font-sans text-[16px]">
               <a href={"/Pricing"}>pricing</a>
-            </h2>
+            </h2> */}
             <h2 className="text-[#263030] hover:text-[#9F70FD] cursor-pointer capitalize font-sans text-[16px]">
               <a href={"/ContactUs"}>contact us</a>
             </h2>

@@ -59,6 +59,7 @@ import Footer_section from "./pages/footer";
 import ContactUs from "./pages/contactus";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import { FaArrowUp } from "react-icons/fa6";
 function Layout() {
   // const [loading, setLoading] = useState(true);
 
@@ -68,6 +69,32 @@ function Layout() {
   // }, []);
 
   // if (loading) return <Splash />;
+  const [showTopBtn, setShowTopBtn] = useState(false);
+const [lastScrollY, setLastScrollY] = useState(0);
+
+useEffect(() => {
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY > 300 && currentScrollY > lastScrollY) {
+      setShowTopBtn(true); // Scrolling down
+    } else {
+      setShowTopBtn(false); // Scrolling up or not far enough
+    }
+
+    setLastScrollY(currentScrollY);
+  };
+
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, [lastScrollY]);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
   return (
     <>
@@ -75,6 +102,15 @@ function Layout() {
       <NavBar />
       <Outlet />
       <Footer_section />
+      {showTopBtn && (
+        <div
+          onClick={scrollToTop}
+          className="fixed lg:right-10 md:right-10 right-5 bottom-20 lg:bg-transparent lg:p-0 lg:rounded-none md:bg-transparent md:p-0 md:rounded-none  bg-white !p-3 rounded-full cursor-pointer !gap-1 group place-content-center place-items-center flex flex-col"
+        >
+          <FaArrowUp className="text-2xl text-[#9F70FD]" /> 
+          <span className="text-[15px] text-[#9F70FD] lg:block md:block hidden">Top</span>
+        </div>
+      )}
     </>
   );
 }
@@ -97,7 +133,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/ContactUs",
-        element: <ContactUs />, 
+        element: <ContactUs />,
       },
       {
         path: "/AboutUs",

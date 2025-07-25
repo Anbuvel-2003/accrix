@@ -11,6 +11,11 @@ import aboutus3 from "../assets/aboutus3.png";
 import team1 from "../assets/team1.png";
 import team2 from "../assets/team2.png";
 import team3 from "../assets/team3.png";
+import team4 from "../assets/team4.jpeg";
+import team5 from "../assets/team01.jpeg";
+import team6 from "../assets/team02.jpeg";
+import team7 from "../assets/team03.jpeg";
+import team8 from "../assets/team04.jpeg";
 import { FaCheck } from "react-icons/fa6";
 
 function Aboutus() {
@@ -39,7 +44,7 @@ function Aboutus() {
   return (
     <div className="">
       <div className="w-full !mb-10">
-        <img src={aboutus} alt="" className="object-contain" />
+        <img src={aboutus} alt="" className="object-contain w-full" />
       </div>
       {/* section 1 */}
       <div className="lg:!m-30 md:!m-20 !m-10  grid lg:grid-cols-3 grid-cols-1  !gap-10 lg:!gap-5">
@@ -192,21 +197,21 @@ function Aboutus() {
         </h3>
         <div className="grid lg:grid-cols-3 grid-cols-1 !gap-10 lg:w-[88vw] w-full !mt-10 justify-between">
           <div
-            className="cursor-pointer  w-full h-full group "
+            className="cursor-pointer  w-full h-[80%] group "
             style={{
               boxShadow: "0px 0px 30px rgba(28, 28, 28, 0.07)",
             }}
           >
-            <div className="relative w-full h-[70%] overflow-hidden">
+            <div className="relative w-full h-[80%] overflow-hidden">
               <img
-                src={team1}
+                src={team5}
                 alt=""
-                className="w-full h-full object-cover transform transition-all duration-500 group-hover:scale-110 "
+                className="w-full h-full object-contain transform transition-all duration-500 group-hover:scale-110 "
               />
             </div>
             <div className="!p-10">
               <h3 className="text-[#9F70FD] lg:text-[20px] md:text-[18px] sm:text-[16px] text-14px font-medium">
-                Paul Walker
+                Vineeth Sharma Murali
               </h3>
               <h3 className="text-[#888888] lg:text=[16px] md:text-[16px] text-[14px] font-normal">
                 Chief Executive Officer
@@ -215,46 +220,46 @@ function Aboutus() {
           </div>
 
           <div
-            className="cursor-pointer  w-full h-full group"
+            className="cursor-pointer  w-full h-[80%] group"
             style={{
               boxShadow: "0px 0px 30px rgba(28, 28, 28, 0.07)",
             }}
           >
-            <div className="relative w-full h-[70%] overflow-hidden">
+            <div className="relative w-full h-[80%] overflow-hidden">
               <img
-                src={team2}
+                src={team6}
                 alt=""
-                className="w-full h-full object-cover transform transition-all duration-500 group-hover:scale-110 "
+                className="w-full h-full object-contain transform transition-all duration-500 group-hover:scale-110 "
               />
             </div>
             <div className="!p-10">
               <h3 className="text-[#9F70FD] lg:text-[20px] md:text-[18px] sm:text-[16px] text-14px font-medium">
-                Jeanette Kingston
+                Gokulakrishnan
               </h3>
               <h3 className="text-[#888888] lg:text=[16px] md:text-[16px] text-[14px] font-normal">
-                Vice President
+                Chief Technology Officer
               </h3>
             </div>
           </div>
           <div
-            className="cursor-pointer  w-full h-full group"
+            className="cursor-pointer  w-full h-[80%] group"
             style={{
               boxShadow: "0px 0px 30px rgba(28, 28, 28, 0.07)",
             }}
           >
-            <div className="relative w-full h-[70%] overflow-hidden">
+            <div className="relative w-full h-[80%] overflow-hidden">
               <img
-                src={team3}
+                src={team7}
                 alt=""
-                className="w-full h-full object-cover transform transition-all duration-500 group-hover:scale-110 "
+                className="w-full h-full object-contain transform transition-all duration-500 group-hover:scale-110 "
               />
             </div>
             <div className="!p-10">
               <h3 className="text-[#9F70FD] lg:text-[20px] md:text-[18px] sm:text-[16px] text-14px font-medium">
-                Paul Walker
+                Anbuvel
               </h3>
               <h3 className="text-[#888888] lg:text=[16px] md:text-[16px] text-[14px] font-normal">
-                Chief Executive Officer
+                Software Developer
               </h3>
             </div>
           </div>

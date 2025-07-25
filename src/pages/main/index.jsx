@@ -1,19 +1,22 @@
 import React, { useEffect, useState } from "react";
-import profile1 from "../../assets/profile1.jpg";
-import profile2 from "../../assets/profile2.jpg";
-import profile3 from "../../assets/profile3.jpg";
-import profile4 from "../../assets/profile1.jpg";
-import profile5 from "../../assets/profile5.jpg";
+import profile1 from "../../assets/review1.png";
+import profile2 from "../../assets/review2.png";
+import profile3 from "../../assets/review3.png";
+import profile4 from "../../assets/review4.png";
+import profile5 from "../../assets/review2.png";
 import Stay1 from "../../assets/Stay1.png";
 import Stay2 from "../../assets/Stay2.png";
 import Stay3 from "../../assets/Stay3.png";
 import money1 from "../../assets/money1.png";
 import money2 from "../../assets/money2.png";
 import money3 from "../../assets/money3.png";
+import money41 from "../../assets/money41.png";
+import money42 from "../../assets/money42.png";
 import services1 from "../../assets/services1.png";
 import services2 from "../../assets/services2.png";
 import services3 from "../../assets/services3.png";
 import services4 from "../../assets/services4.png";
+import money4 from "../../assets/money4.png";
 import { FaCircleArrowUp } from "react-icons/fa6";
 import { FaCircleArrowDown } from "react-icons/fa6";
 import { Rate } from "antd";
@@ -31,8 +34,8 @@ function Main() {
       rating: 4,
       comment: ` "Accrix has significantly streamlined our lending operations."
  The platform’s automation features have reduced manual errors and helped us maintain consistency in follow-ups. It’s an essential tool for anyone managing large-scale lending.`,
-      name: "Anbu S., ",
-      occupation: "Tirupur",
+      name: "Harish S., ",
+      occupation: "coimbatore",
     },
     {
       id: 2,
@@ -40,7 +43,7 @@ function Main() {
       rating: 5,
       comment: ` "We’ve experienced improved repayment efficiency since adopting Accrix."
  The notification system ensures timely reminders, and the analytics offer valuable insights into borrower behavior. It’s both intuitive and powerful.`,
-      name: "Sujith S.,",
+      name: "velmurugan S.,",
       occupation: "coimbatore",
     },
     {
@@ -49,21 +52,21 @@ function Main() {
       rating: 3,
       comment: ` "Accrix brings structure and clarity to what was once a complex process."
  Managing multiple accounts is now seamless. The dashboard is well-designed and enables our team to stay informed and proactive.`,
-      name: "Guhan K S .,",
-      occupation: "Salem",
+      name: "Vijay T .,",
+      occupation: "Bengaluru",
     },
     {
       id: 4,
-      imageurl: profile2,
+      imageurl: profile4,
       rating: 2,
       comment: ` "The platform has enhanced both visibility and control across our portfolio."
  We’ve been able to scale without compromising accuracy or speed. The support team is also prompt and knowledgeable.`,
-      name: "Vijay R.,",
+      name: "Dinesh S.,",
       occupation: "Chennai",
     },
     {
       id: 5,
-      imageurl: profile3,
+      imageurl: profile5,
       rating: 5,
       comment: `"Accrix has added a layer of professionalism to our financial operations."
  From secure data management to real-time tracking, every feature supports better decision-making and accountability.`,
@@ -150,58 +153,49 @@ function Main() {
             </p>
             {/* <button className="!px-10 !py-5 rounded-[40px] cursor-pointer text-white bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD]">Get started free</button> */}
           </div>
-          <div className="!mt-15">
-            <div className="w-full lg:flex grid ">
-              <div className="w-full h-full grid ">
-                <div className="lg:flex grid grid-cols-2 gap-5 h-1/2  ">
-                  <div className="">
-                    <img src={money1} alt="" className="rounded-[20px]" />
-                  </div>
-                  <div className="">
-                    <img src={money2} className="rounded-[20px]" alt="" />
-                  </div>
-                </div>
-                <div className="!mt-5 w-full h-fill md:rounded-[20px] sm:rounded-[15px] rounded-[10px] bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD] lg:!px-10 md:!px-5 !px-3">
-                  <div className="flex gap-5 lg:!py-5 md:!py-3 !py-2">
-                    <div className="w-1/3 ">
-                      <h5 className="lg:text-[90px] md:text-[50px] sm:text-[30px] text-[18px] text-white font-bold text-center">
-                        1.5M
-                      </h5>
-                      <h5 className="md:text-[20px] sm:text-[16px] text-[12px]  text-white capitalize font-sans text-center">
-                        Active users
-                      </h5>
-                    </div>
-                    <div className=" w-1/3">
-                      <h5 className="lg:text-[90px] md:text-[50px] sm:text-[30px] text-[18px] text-white font-bold text-center">
-                        46+
-                      </h5>
-                      <h5 className="md:text-[20px] sm:text-[16px] text-[12px]  text-white capitalize font-sans text-center">
-                        Country
-                      </h5>
-                    </div>
-                    <div className=" w-1/3">
-                      <h5 className="lg:text-[90px] md:text-[50px] sm:text-[30px] text-[18px] text-white font-bold text-center">
-                        140+
-                      </h5>
-                      <h5 className="md:text-[20px] sm:text-[16px] text-[12px]  text-white capitalize font-sans text-center">
-                        startups
-                      </h5>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="lg:w-1/2 md:w-full lg:mt-0 !mt-5 lg:!ml-5 !ml-0 h-[full]">
-                <div className="w-full h-full ">
-                  <img
-                    src={money3}
-                    className="lg:w-[50vw] lg:h-[90vh] object-contain rounded-[20px]"
-                    alt=""
-                  />
-                </div>
-              </div>
+          <div className="lg:flex block justify-center items-center gap-10 !mt-10">
+            <div className="lg:w-1/3 w-full place-items-center">
+              <img src={money4} alt="" className=" w-full h-full" />
             </div>
-            <div>
-              <div></div>
+            <div className="lg:w-1/2 w-full lg:mt-0 !mt-10">
+              <div>
+                <h2 className="text-[14px] text-[#AD46FF] ">
+                  ABOUT OUR COMPANY
+                </h2>
+              </div>
+              <div className="">
+                <h2 className="lg:text-[48px] md:text-[40px] sm:text-[25px] text-[20px] text-base/14 text-[#000000] font-normal lg:py-0 md:py-0  !py-3">
+                  Find A Secure Future With{" "} <br/> <span className="text-[#AD46FF] lg:text-[48px]">Accrix</span>
+                </h2>
+                {/* <h2 className="lg:text-[40px] md:text-[40px] sm:text-[25px] text-[20px] text-[#AD46FF] bg-amber-200">
+                  Accrix.
+                </h2> */}
+              </div>
+              <div className="grid md:grid-cols-2 lg:grid-cols-2 grid-cols-1  !gap-10 !mt-3">
+                <div className="mt-10">
+                  <img src={money41} alt="" />
+                  <h2 className="!py-5 text-[#000] md:text-[24px] lg:text-[24px] text-[20px]  font-medium">
+                    Our mission
+                  </h2>
+                  <p className="text-[#666666] text-[16px] ">
+                    To simplify financial tracking for money lenders through
+                    smart, reliable digital solutions. We empower businesses to
+                    manage repayments, follow-ups, and records with ease and
+                    accuracy.
+                  </p>
+                </div>
+                <div className="mt-10">
+                  <img src={money42} alt="" className="" />
+                  <h2 className="!py-5 text-[#000] md:text-[24px] lg:text-[24px] text-[20px] font-medium">
+                    Our vision
+                  </h2>
+                  <p className="text-[#666666] text-[16px]">
+                    To become the digital backbone for lending operations across
+                    India and beyond. We envision a future where finance is
+                    transparent, timely, and tech-powered for everyone.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -339,7 +333,7 @@ function Main() {
                 />
               </div>
               <div className="lg:w-2/3 w-full place-self-center !mb-5 lg:!mb-0 ">
-                <Rate disabled defaultValue={3} />
+                <Rate disabled defaultValue={3} value={Number(selected?.rating)} />
                 <h2 className="text-white sm:text-[18px] lg:text-[20px] md:text-[20px] text-[16px] capitalize font-medium !mt-4">
                   {selected?.comment}
                 </h2>

@@ -1,21 +1,41 @@
-import React, { useRef } from "react";
+import React, { useRef, useState } from "react";
 // import contactus from "../assets/Contactus.png";
 import contactus1 from "../assets/Contactus1.png";
 import contactus2 from "../assets/Contactus2.png";
 import { FloatingLabel } from "flowbite-react";
 import { Input } from "antd";
+import emailjs from "@emailjs/browser";
 
 const { TextArea } = Input;
 
 function ContactUs() {
   const formRef = useRef(null);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
   const handleSubmit = (e) => {
-    console.log(e?.preventDefault());
+    e.preventDefault();
+    const serviceId = "service_d4v7wbl";
+    const templateId = "template_ukicvmu";
+    const publicKey = "c6GyoGlRoRVZMY1lI";
+    const templateparams = {
+      title: subject,
+      name: name,
+      message: message,
+      email: email,
+    };
+    emailjs
+      .send(serviceId, templateId, templateparams, publicKey)
+      .then((response) => {
+        console.log("email sent successfully", response);
+        alert("Email sent successfully");
+      });
   };
   return (
     <div className="">
       <div className="w-full !mb-10">
-        <img src={contactus1} alt="" className="object-contain" />
+        <img src={contactus1} alt="" className="object-contain w-full" />
       </div>
       <div>
         <div className="lg:px-0 md:!px-20 !px-10">
@@ -42,6 +62,10 @@ function ContactUs() {
                     type="text"
                     id="name"
                     name="name"
+                    value={name}
+                    onChange={(e) => {
+                      setName(e.target.value);
+                    }}
                     required
                     className="w-full !px-4 !py-3 border border-gray-300 rounded-lg transition duration-200 !mb-3"
                     placeholder="Name..."
@@ -70,6 +94,8 @@ function ContactUs() {
                   type="email"
                   id="email"
                   name="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   required
                   className="w-full !px-4 !py-3 border border-gray-300 rounded-lg  transition duration-200 !mb-3"
                   placeholder="email..."
@@ -79,6 +105,8 @@ function ContactUs() {
                 <input
                   type="text"
                   id="subject"
+                  value={subject}
+                  onChange={(e) => setSubject(e.target.value)}
                   name="subject"
                   className="w-full !px-4 !py-3 border border-gray-300 rounded-lg  transition duration-200 !mb-3"
                   placeholder="subject..."
@@ -89,6 +117,8 @@ function ContactUs() {
                   id="message"
                   name="message"
                   required
+                  value={message}
+                  onChange={(e) => setMessage(e.target.value)}
                   rows="5"
                   className="w-full !px-4 !py-3 border border-gray-300 rounded-lg transition duration-200 !mb-3"
                   placeholder="Message..."
