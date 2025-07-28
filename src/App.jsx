@@ -121,6 +121,8 @@ import Register from "./pages/register";
 import Thankyou from "./pages/thankyou";
 import Pricing from "./pages/pricing";
 import Lanching from "./pages/lanching";
+import Privacy from "./pages/privacy";
+import Terms from "./pages/terms";
 
 const router = createBrowserRouter([
   {
@@ -154,6 +156,14 @@ const router = createBrowserRouter([
       {
         path: "/Thankyou",
         element: <Thankyou />,
+      },
+      {
+        path: "/Privacy",
+        element: <Privacy />,
+      },
+      {
+        path: "/Terms",
+        element: <Terms />,
       },
     ],
   },

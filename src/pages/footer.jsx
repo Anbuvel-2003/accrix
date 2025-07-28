@@ -181,7 +181,7 @@ function Footer_section() {
           <div className="lg:flex md:flex sm:flex flex items-center !gap-3">
             <div>
               <a
-                href="/"
+                href="/Privacy"
                 className="text-[#6e6e6e] text-[14px] font-syne uppercase"
               >
                 Privacy Policy
@@ -192,7 +192,7 @@ function Footer_section() {
             </div>
             <div>
               <a
-                href="/"
+                href="/Terms"
                 className="text-[#6e6e6e] text-[14px] font-syne uppercase"
               >
                 Terms & Conditions
