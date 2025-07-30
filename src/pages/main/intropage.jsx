@@ -5,8 +5,14 @@ import star1 from "../../assets/star.png";
 import title from "../../assets/Overlay.png";
 import "./../../index.css";
 import { FaPlay } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
+
 
 function Intropage() {
+
+      const navigate = useNavigate();
+  
+
   return (
     // <div className="lg:!px-20 !py-10  md:!px-20 !px-10  lg:!mt-15 md:!mt-10 bg-white">
     //   <div className="lg:w-[95vw]  md:w-[90vw] lg:h-[90vh] md:h-[70vh] !h-fill  relative">
@@ -61,7 +67,7 @@ function Intropage() {
           Smarter finance, powered by data and trust — helping you lend
           confidently and grow consistently with Accrix.
         </h3>
-        <div className="flex bg-gradient-to-r from-[#E770C0] via-[#C670DE] to-[#9F70FD] lg:!px-10 lg:!py-5 md:!px-6 md:!py-3 !px-3 !py-2   rounded-[40px] lg:!gap-5 gap-2 md:!gap-3 place-items-center !mt-5 lg:!mt-10 animate-pulse">
+        <div onClick={() => navigate("/Register")} className="flex bg-gradient-to-r cursor-pointer from-[#E770C0] via-[#C670DE] to-[#9F70FD] lg:!px-10 lg:!py-5 md:!px-6 md:!py-3 !px-3 !py-2   rounded-[40px] lg:!gap-5 gap-2 md:!gap-3 place-items-center !mt-5 lg:!mt-10 animate-pulse">
           <FaPlay color="White" size={15} />
           <h3 className="font-medium lg:text-[20px] md:text-[18px] sm:text-[16px] text-[12px] text-white ">
             Watch demo

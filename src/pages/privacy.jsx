@@ -8,12 +8,12 @@ function Privacy() {
             <section className="mb-8">
                 <p className="!mb-5 font-bold">Last update: July 2025</p>
                 <p>
-                    Accrix Finance Software Services values your privacy. This Privacy Policy outlines how we collect, use,
+                    Accrix Finance Software Services value your privacy. This Privacy Policy outlines how we collect, use,
                     disclose, and safeguard your personal information across our Financial Data Management software services.
                     <br /><br />
                     By accessing or using our services, you consent to the collection, use, and sharing of your information
                     as described in this policy.
-                </p>
+                </p>   
             </section>
 
             <section className="!py-8">
@@ -22,9 +22,9 @@ function Privacy() {
                 </p>
                 <ul className="list-disc list-inside space-y-1 lg:!px-15 md:!px-15 !px-5">
                     <li>Personal Information</li>
-                    <li>Contact Details: Name, email address, phone number, and physical address.<br />
-                          &nbsp;&emsp;Billing Information: Payment details (e.g., credit/debit card, bank details), billing address, and transaction history.</li>
-                    <li>Billing Information: Invoice records, service plan selections, payment gateway details, and subscription history.</li>
+                    <li>Contact Details: Name, email address, phone number, and physical address.</li>
+                    <li>Billing Information: Payment details (e.g., credit/debit card, bank details), billing address, and transaction history.
+                        Invoice records, service plan selections, payment gateway details, and subscription history.</li>
                     <li>Account Access : Usernames, role-based permissions, API keys, and workspace credentials.
 </li>
                     <li>Account Details: Usernames, passwords, and usage data for platforms and software we provide.Non-Personal Information.</li>
@@ -163,12 +163,11 @@ We will notify you of significant changes by posting the updated policy on our w
             <section className="mb-8">
                 <h2 className="text-xl font-semibold !mb-5">12. Contact Us</h2>
                 <p>If you have questions or concerns about this Privacy Policy or your data, please contact us:<br />
-If you have any questions about these Terms and Conditions, please contact us at:
 </p>
                 <ul className="space-y-1 lg:!px-15 md:!px-10 !px-5">
                     <h1 className='!py-4'><strong>Registered Office Address:</strong></h1>
                     <li>VineAtZ OPC PRIVATE LIMITED</li>
-                    <li><b>Address:</b> 5/143, Shop No.1,first floor,</li>
+                    <li> 5/143, Shop No.1,first floor,</li>
                     <li> Thiruvalluvar Nagar, Krishnagiri - 635001</li>
                     <li><strong>Email:</strong> <a href="mailto:accrixfinz.com" className="text-blue-500 underline">accrixfinz.com</a></li>
                     <li><strong>Phone:</strong> <a href="tel:+919488160083" className="text-blue-500 underline">+91 94881 60083</a></li>

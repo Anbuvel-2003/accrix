@@ -8,7 +8,7 @@ function Terms() {
             <section className="mb-8">
                 <h2 className="text-xl font-semibold !mb-5">Introduction</h2>
                 <p>
-                    Welcome to <b> Accrix Finance.</b> These Terms and Conditions govern your use of our technology services, including but not limited to <b>finance-related services.</b><br /> By accessing or using our Services, you agree to comply with and be bound by these terms.
+                    Welcome to <b> Accrix Finance.</b> These Terms and Conditions govern your use of our Technology services, including but not limited to <b>Finance-related Services.</b><br /> By accessing or using our Services, you agree to comply with and be bound by these terms.
                 </p>
             </section>
 
